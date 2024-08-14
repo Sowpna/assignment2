@@ -19,6 +19,7 @@
  .manu_part {
     display: flex;
     justify-content: space-between;
+  
  }
 .logo_part {
     padding: 20px;
@@ -28,6 +29,11 @@
  .manues {
     display: flex;
     font-style: bold;
+    border-radius: 10px;
+  
+    border: 1px;
+    border-color:#cbccd3;
+    border-radius: 15px;
   }
   .manues li a {
     padding: 20px;
@@ -37,6 +43,7 @@
     font-weight: 700;
     color: #cbccd3;
     margin: 0;
+    border-radius: 10px;
    }
    /* button create */
     .hero-btn a {
@@ -63,6 +70,7 @@
 
     list-style: none;
     font-size: 16px;
+    border-radius: 10px;
   
   
       }
@@ -100,6 +108,7 @@
     display: none;
     font-size: 13px;
     font-style: bold;
+  
 
   }
   .dropdown li a {
@@ -113,7 +122,13 @@
     
     color:#0725e7;
     margin: 0;
+   
    } 
+   .hi{
+    background-color: rgb(245, 42, 42);
+    border: none;
+    border-radius: 15px;
+   }
 .poster{
     width: 100%;
     height: 500px;
@@ -131,6 +146,7 @@
     text-align: left;
     color: #ffffff;
   }
+ 
   p.design2 {
  
 
@@ -162,8 +178,44 @@
     height: auto;
     margin: 0;
    padding-top: 15px;
+   position: relative;
     
    }
+  .btn btn-outline-primary{
+ 
+    top: 80%;
+    margin-right: 50%;
+    
+  
+  }
+ 
+  .button button6  {
+    margin: 0;
+    position: absolute;
+    bottom:20%;
+    right: 40%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  } 
+.content image button{
+  top:100%;
+  right:50%;
+}
+  .image button{
+    margin-top: 70%;
+    background-color: #8b8b8b; 
+   border: none;
+   border-radius: 15px;
+  font-size: 13px;
+   font-family: 'Raleway', sans-serif; 
+ padding: 10px;
+   font-weight: 600;
+   color: #ffffff;
+   top:90%;
+   right:30%;
+   margin-left: 100px;
+ } 
+
   .center {
     margin: 0;
     position: absolute;
@@ -184,7 +236,12 @@
  } 
 
   /* From making*/
-  
+  .Bmi_set{
+    background-color:#131313 ;
+    width: 100%;
+    height: auto;
+    margin: 0;
+  }
   .poster_bmi{
    background-color: #39393a;
    width: 100%;
@@ -199,6 +256,8 @@ table, th, td {
   border: 1px solid #ffffff;
   border-collapse: collapse;
   padding: 5px;
+  font-size: 14px;
+  width: 100%;
 }
 table, th{
   color: #ffffff;
@@ -221,7 +280,7 @@ table, th{
   font-family: 'Raleway', sans-serif; 
    font-weight: 400;
    color: #cacaca;
-   margin-left: 75px;
+   margin-left: 60px;
  }
 
  .from_part button  {
@@ -275,21 +334,23 @@ padding: 4px;
 
  p.design10 {
  
-  margin: 10px 5px 15px 20px;
+  margin:0;
   font-family: 'Open Sans', sans-serif;
-  font-size: 37px;
+  font-size: 27px;
   font-weight: 700;
   text-align: left;
   color: #ffffff;
+  top: 60%;
 }
 
 p.design20 {
   font-family: 'Raleway', sans-serif;
   text-align: left;
-  margin: 14px;
-  font-size: 16px;
+  margin: 0;
+  font-size: 12px;
   font-weight: 400;
   color: #ffffff;
+  top: 70;
 }
 
 .poster1 container { 
@@ -311,7 +372,7 @@ p.design20 {
  .image0  {
   margin: 0;
  padding-top: 20px;
- left: 10%;
+  left: 10%;
  padding-left: 10px;
  padding-right: 10px;
  padding-bottom: 20px;
@@ -510,7 +571,7 @@ P.description {
   gap:10px;
 }
 .sec {
-  width: 25%;
+  width: 33.3%;
   padding-bottom: 30px;
   padding-top: 40px;
  
@@ -766,6 +827,32 @@ font-weight: 700;
 color: #ffffff;
 padding-top: 10px;
 text-align: center;}
+
+p.change10{
+  font-family: 'Raleway', sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  color: #ffffff;
+  padding-top: 40px;
+  text-align: center;
+}
+p.change20{
+font-family: 'Raleway', sans-serif;
+font-size: 14px;
+font-weight: 700;
+color: #ffffff;
+padding-top: 10px;
+text-align: center;}
+
+.bottomleft {
+  position: absolute;
+  bottom: 8px;
+  left: 4px;
+ color: #131313;
+  font-family: 'Raleway', sans-serif;
+font-size: 14px;
+font-weight: 700;
+}
 .div999 {
   padding-top: 45px;
   padding-left: 30%;
@@ -801,13 +888,13 @@ text-align: center;}
   display: flex;
   justify-content: space-between;
   flex-direction: row;
-  flex-flow: wrap;
+ 
   padding-top: 20px;
   width: 100%;
   height: auto;
 }
-.col-6 .col-sm-4 {
-  width: 33.33%;
+.train {
+  width: 25%;
   padding-top: 70px;
   padding-bottom: 40px;
 }
@@ -957,6 +1044,32 @@ margin: 0;
   background-color: #39393a;
   border-radius: 10px;
  
+}
+.text0 {
+  width: 100%;
+  margin: 0;
+ padding-top: 15px;
+ margin-top: 60%;
+
+ }
+ p.design10 {
+  margin: 20px 5px 15px 20px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  text-align: left;
+  color: #ffffff;
+}
+
+p.design20 {
+
+
+  font-family: 'Raleway', sans-serif;
+  text-align: left;
+  margin: 14px;
+  font-size: 16px;
+  font-weight: 400;
+  color: #cec7c7;
 }
  
 p.traininga{
