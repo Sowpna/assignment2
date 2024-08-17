@@ -36,7 +36,7 @@
     border-radius: 15px;
   }
   .manues li a {
-    padding: 20px;
+    padding: 10px;
     display: block;
     font-family: 'Raleway', sans-serif;
     font-size: 20px;
@@ -112,7 +112,7 @@
 
   }
   .dropdown li a {
-    padding: 20px;
+    padding: 10px;
     display: block;
     
     font-family: 'Raleway', sans-serif;
@@ -127,7 +127,7 @@
    .hi{
     background-color: rgb(245, 42, 42);
     border: none;
-    border-radius: 15px;
+    border-radius: 10px;
    }
 .poster{
     width: 100%;
@@ -174,8 +174,9 @@
    }
 
    .image {
+
     width: 50%;
-    height: auto;
+    height: 4000px;
     margin: 0;
    padding-top: 15px;
    position: relative;
@@ -332,6 +333,27 @@ padding: 4px;
   margin: 0;
  }
 
+ p.design101 {
+ 
+  margin:15px ;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 37px;
+  font-weight: 700;
+  text-align: left;
+  color: #ffffff;
+  top: 60%;
+}
+
+p.design201 {
+  font-family: 'Raleway', sans-serif;
+  text-align: left;
+  margin-left: 15px;
+  margin-bottom: 15px;
+  font-size: 14px;
+  font-weight: 400;
+  color: #ffffff;
+  top: 70;
+}
  p.design10 {
  
   margin:0;
@@ -382,9 +404,9 @@ p.design20 {
   border-radius: 10%;
  }
 .center0 {
-  margin: 0;
+  margin-left:  15px;
   position: absolute;
-  top: 85%;
+  top: 75%;
   left:7%;
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
@@ -1097,7 +1119,7 @@ p.training2a{
  background-repeat: no-repeat; /* Do not repeat the image */
  background-size: cover;
  width:33.33%;
- height: 250px;
+ height: 260px;
  padding: 5px 5px 5px 5px;
  margin: 10px 10px 10px 10px;
  border-radius: 10px;
@@ -1108,9 +1130,9 @@ p.training2a{
  background-repeat: no-repeat; /* Do not repeat the image */
  background-size: cover;
  width:33.33%;
- height: 250px;
+ height: 260px;
  padding: 5px 5px 5px 5px;
- margin: 10px 10px 0px 10px;
+ margin: 10px 10px 10px 10px;
  border-radius: 10px;
  }
  .div753a {
@@ -1119,9 +1141,9 @@ p.training2a{
  background-repeat: no-repeat; /* Do not repeat the image */
  background-size: cover;
  width:33.33%;
- height: 250px;
+ height: 260px;
  padding: 5px 5px 5px 5px;
- margin: 10px 10px 0px 10px;
+ margin: 10px 10px 10px 10px;
  border-radius: 10px;
  }
 
@@ -1131,7 +1153,7 @@ p.training2a{
  background-repeat: no-repeat; /* Do not repeat the image */
  background-size: cover;
  width:33.33%;
- height: 250px;
+ height: 260px;
  padding: 5px 5px 5px 5px;
  margin: 0px 10px 10px 10px;
  border-radius: 10px;
@@ -1142,13 +1164,13 @@ p.training2a{
  background-repeat: no-repeat; /* Do not repeat the image */
  background-size: cover;
  width:33.33%;
- height: 250px;
+ height: 260px;
  padding: 5px 5px 5px 5px;
- margin: 0px 10px 0px 10px;
+ margin: 10px 10px 10px 10px;
  border-radius: 10px;
  }
  .div757a {
-  height: 250px;
+  height: 260px;
   background-image: url(trainer6.png);
   background-position: center; /* Center the image */
  background-repeat: no-repeat; /* Do not repeat the image */
